@@ -1,0 +1,62 @@
+{
+  "title": "رفع متعدد",
+  "pageTitle": "المعالجة المجمعة",
+  "pageDescription": "قم برفع عدة ملفات PDF في وقت واحد لاستخراج معلومات المرضى تلقائياً",
+  "patients": "المرضى",
+  "patientsList": "قائمة المرضى",
+  "patientsDescription": "المرضى مع ملفات التحاليل الخاصة بهم",
+  "patientsCount": "مرضى",
+  "lastAnalysis": "آخر تحليل",
+  "analysisCount": "تحليل",
+  "analysisCount_plural": "تحاليل",
+  "viewHistory": "عرض التاريخ",
+  "moreAnalyses": "تحليل آخر",
+  "moreAnalyses_plural": "تحاليل أخرى",
+  "noPatients": "لا يوجد مرضى",
+  "noPatientsDescription": "ابدأ برفع ملفات PDF لإنشاء ملفات المرضى",
+  "statisticsTitle": "إحصائيات المعالجة",
+  "statisticsDescription": "نشاط آخر 30 يوماً",
+  "noData": "لا توجد بيانات",
+  "noDataDescription": "لا يوجد نشاط في آخر 30 يوماً",
+  "description": "اسحب وأفلت عدة ملفات PDF للمعالجة التلقائية",
+  "dropZone": "اسحب ملفات PDF هنا أو انقر للاختيار",
+  "processing": "جارٍ المعالجة...",
+  "results": "نتائج المعالجة",
+  "stats": {
+    "total": "الإجمالي",
+    "successful": "نجح",
+    "newPatients": "جدد",
+    "existingPatients": "موجودون"
+  },
+  "statistics": {
+    "title": "الإحصائيات",
+    "totalFiles": "إجمالي الملفات",
+    "processed": "معالج بنجاح",
+    "failed": "فشل",
+    "newPatients": "مرضى جدد",
+    "existingPatients": "مرضى موجودون"
+  },
+  "fileStatus": {
+    "success": "نجح",
+    "error": "خطأ",
+    "processing": "جارٍ..."
+  },
+  "messages": {
+    "uploadSuccess": "تم معالجة {{count}} ملف بنجاح",
+    "uploadError": "خطأ في معالجة بعض الملفات",
+    "noFiles": "لم يتم اختيار ملفات",
+    "invalidFiles": "يُقبل فقط ملفات PDF"
+  },
+  "extractingInfo": "استخراج معلومات المرضى",
+  "dropFiles": "أفلت ملفات PDF هنا...",
+  "fileConstraints": "الحد الأقصى 20 ملف • 10 ميجابايت لكل ملف • تنسيق PDF فقط",
+  "uploadError": "خطأ في الرفع",
+  "processingCompleted": "تم إنجاز المعالجة",
+  "successfulFiles": "ملفات معالجة بنجاح ({{count}})",
+  "failedFiles": "ملفات فاشلة ({{count}})",
+  "patient": "مريض",
+  "phone": "هاتف",
+  "newPatient": "مريض جديد",
+  "existingPatient": "مريض موجود",
+  "uploadMoreFiles": "تحميل ملفات أخرى"
+}

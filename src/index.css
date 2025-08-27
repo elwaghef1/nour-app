@@ -1,0 +1,391 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+
+/* Styles de base personnalisés */
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+  
+  body {
+    @apply font-sans text-gray-900 bg-gray-50;
+  }
+  
+  [lang="ar"], 
+  [lang="ar"] *,
+  [lang="ar"] body,
+  [dir="rtl"],
+  [dir="rtl"] * {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+    direction: rtl;
+  }
+  
+  [lang="fr"],
+  [lang="fr"] *,
+  [dir="ltr"],
+  [dir="ltr"] * {
+    font-family: 'Inter', sans-serif;
+    direction: ltr;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-gray-900;
+  }
+  
+  [lang="ar"] h1, 
+  [lang="ar"] h2, 
+  [lang="ar"] h3, 
+  [lang="ar"] h4, 
+  [lang="ar"] h5, 
+  [lang="ar"] h6,
+  [dir="rtl"] h1, 
+  [dir="rtl"] h2, 
+  [dir="rtl"] h3, 
+  [dir="rtl"] h4, 
+  [dir="rtl"] h5, 
+  [dir="rtl"] h6 {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+    font-weight: 600;
+  }
+}
+
+/* Composants personnalisés */
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 transition-colors duration-200;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-gray-600 text-white hover:bg-gray-700 focus:ring-gray-500;
+  }
+  
+  .btn-success {
+    @apply btn bg-success-600 text-white hover:bg-success-700 focus:ring-success-500;
+  }
+  
+  .btn-warning {
+    @apply btn bg-warning-600 text-white hover:bg-warning-700 focus:ring-warning-500;
+  }
+  
+  .btn-error {
+    @apply btn bg-error-600 text-white hover:bg-error-700 focus:ring-error-500;
+  }
+  
+  .btn-outline {
+    @apply btn bg-white text-gray-700 border-gray-300 hover:bg-gray-50 focus:ring-primary-500;
+  }
+  
+  .card {
+    @apply bg-white shadow-soft rounded-lg border border-gray-200;
+  }
+  
+  .form-group {
+    @apply mb-4;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+  
+  .form-input {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm;
+  }
+  
+  .form-select {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm bg-white;
+  }
+  
+  .form-textarea {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm resize-none;
+  }
+  
+  .form-error {
+    @apply mt-1 text-sm text-error-600;
+  }
+  
+  /* Police Cairo pour les éléments de formulaire en arabe */
+  [lang="ar"] .form-input,
+  [lang="ar"] .form-select,
+  [lang="ar"] .form-textarea,
+  [lang="ar"] .form-label,
+  [dir="rtl"] .form-input,
+  [dir="rtl"] .form-select,
+  [dir="rtl"] .form-textarea,
+  [dir="rtl"] .form-label {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .badge-success {
+    @apply badge bg-success-100 text-success-800;
+  }
+  
+  .badge-warning {
+    @apply badge bg-warning-100 text-warning-800;
+  }
+  
+  .badge-error {
+    @apply badge bg-error-100 text-error-800;
+  }
+  
+  .badge-info {
+    @apply badge bg-primary-100 text-primary-800;
+  }
+  
+  .badge-gray {
+    @apply badge bg-gray-100 text-gray-800;
+  }
+  
+  /* Police Cairo pour les boutons et badges en arabe */
+  [lang="ar"] .btn,
+  [lang="ar"] .badge,
+  [dir="rtl"] .btn,
+  [dir="rtl"] .badge {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+  
+  .table {
+    @apply min-w-full divide-y divide-gray-200;
+  }
+  
+  .table-header {
+    @apply bg-gray-50;
+  }
+  
+  .table-header-cell {
+    @apply px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider;
+  }
+  
+  .table-body {
+    @apply bg-white divide-y divide-gray-200;
+  }
+  
+  .table-cell {
+    @apply px-4 py-3 whitespace-nowrap text-sm text-gray-900;
+  }
+  
+  /* Police Cairo pour les tableaux en arabe */
+  [lang="ar"] .table,
+  [lang="ar"] .table-header-cell,
+  [lang="ar"] .table-cell,
+  [dir="rtl"] .table,
+  [dir="rtl"] .table-header-cell,
+  [dir="rtl"] .table-cell {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+
+  /* Centrer les headers de tableau en arabe */
+  [lang="ar"] .table-header-cell,
+  [dir="rtl"] .table-header-cell {
+    text-align: center !important;
+  }
+  
+  .loading-spinner {
+    @apply animate-spin rounded-full h-4 w-4 border-b-2 border-primary-600;
+  }
+  
+  .loading-spinner-lg {
+    @apply animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600;
+  }
+  
+  /* Police Cairo pour les cards et composants en arabe */
+  [lang="ar"] .card,
+  [lang="ar"] .card *,
+  [dir="rtl"] .card,
+  [dir="rtl"] .card * {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+}
+
+/* Utilitaires personnalisés */
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .transition-smooth {
+    @apply transition-all duration-200 ease-in-out;
+  }
+  
+  /* Classe utilitaire pour forcer la police Cairo */
+  .font-cairo {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+  
+  /* Application globale de Cairo en mode RTL */
+  [dir="rtl"] {
+    font-family: 'Cairo', 'Inter', sans-serif !important;
+  }
+}
+
+/* Animations personnalisées pour les loaders */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% { transform: translate3d(0,0,0); }
+  40%, 43% { transform: translate3d(0, -30px, 0); }
+  70% { transform: translate3d(0, -15px, 0); }
+  90% { transform: translate3d(0, -4px, 0); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.animate-fadeIn { animation: fadeIn 0.3s ease-out; }
+.animate-slideUp { animation: slideUp 0.3s ease-out; }
+.animate-bounce { animation: bounce 2s infinite; }
+
+/* Effet shimmer pour le chargement */
+.shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200px 100%;
+  animation: shimmer 1.2s infinite;
+}
+
+/* Améliorations visuelles pour les cards */
+.card-hover {
+  @apply transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1;
+}
+
+.card-professional {
+  @apply bg-white rounded-xl shadow-soft border border-gray-100 p-6 hover:shadow-lg transition-all duration-300;
+}
+
+/* Gradient backgrounds */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.bg-gradient-success {
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+}
+
+.bg-gradient-warning {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.bg-gradient-medical {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Amélioration des boutons */
+.btn-gradient-primary {
+  @apply btn text-white bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200;
+}
+
+.btn-gradient-success {
+  @apply btn text-white bg-gradient-to-r from-success-500 to-success-600 hover:from-success-600 hover:to-success-700 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200;
+}
+
+/* Styles pour react-toastify */
+.Toastify__toast {
+  @apply rounded-lg shadow-lg;
+}
+
+.Toastify__toast--success {
+  @apply bg-success-50 text-success-800;
+}
+
+.Toastify__toast--error {
+  @apply bg-error-50 text-error-800;
+}
+
+.Toastify__toast--warning {
+  @apply bg-warning-50 text-warning-800;
+}
+
+.Toastify__toast--info {
+  @apply bg-primary-50 text-primary-800;
+}
+
+/* Police Cairo pour les notifications en arabe */
+[lang="ar"] .Toastify__toast,
+[dir="rtl"] .Toastify__toast {
+  font-family: 'Cairo', 'Inter', sans-serif !important;
+}
+
+/* Styles pour react-dropzone */
+.dropzone {
+  @apply border-2 border-dashed border-gray-300 rounded-lg p-8 text-center cursor-pointer hover:border-primary-400 transition-colors duration-200;
+}
+
+.dropzone.active {
+  @apply border-primary-500 bg-primary-50;
+}
+
+.dropzone.error {
+  @apply border-error-500 bg-error-50;
+}
+
+/* Styles RTL pour l'arabe */
+[dir="rtl"] {
+  text-align: right;
+}
+
+[dir="rtl"] .form-input,
+[dir="rtl"] .form-select,
+[dir="rtl"] .form-textarea {
+  text-align: right;
+}
+
+/* Ajustements pour la navigation */
+[dir="rtl"] .ml-2 { margin-left: 0; margin-right: 0.5rem; }
+[dir="rtl"] .mr-2 { margin-right: 0; margin-left: 0.5rem; }
+[dir="rtl"] .ml-3 { margin-left: 0; margin-right: 0.75rem; }
+[dir="rtl"] .mr-3 { margin-right: 0; margin-left: 0.75rem; }
+[dir="rtl"] .ml-4 { margin-left: 0; margin-right: 1rem; }
+[dir="rtl"] .mr-4 { margin-right: 0; margin-left: 1rem; }
+[dir="rtl"] .ml-auto { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .mr-auto { margin-right: 0; margin-left: auto; }
+
+/* Ajustements pour les flex */
+[dir="rtl"] .justify-between {
+  flex-direction: row-reverse;
+}
+
+/* Ajustements pour les bordures */
+[dir="rtl"] .border-l-4 { border-left-width: 0; border-right-width: 4px; }
+[dir="rtl"] .border-r-4 { border-right-width: 0; border-left-width: 4px; }
+
+/* Ajustements pour le padding */
+[dir="rtl"] .pl-3 { padding-left: 0; padding-right: 0.75rem; }
+[dir="rtl"] .pr-3 { padding-right: 0; padding-left: 0.75rem; }
+[dir="rtl"] .pl-4 { padding-left: 0; padding-right: 1rem; }
+[dir="rtl"] .pr-4 { padding-right: 0; padding-left: 1rem; }
+[dir="rtl"] .pl-10 { padding-left: 0; padding-right: 2.5rem; }
+
+/* Ajustements pour les icônes */
+[dir="rtl"] svg {
+  transform: scaleX(-1);
+}
+
+/* Exceptions pour certaines icônes qui ne doivent pas être inversées */
+[dir="rtl"] .no-flip {
+  transform: none !important;
+}

@@ -1,0 +1,67 @@
+{
+  "title": "Historique des Patients",
+  "description": "Consultez l'historique détaillé des analyses de chaque patient",
+  "searchPlaceholder": "Rechercher un patient par nom ou numéro...",
+  "searchPatientPlaceholder": "Rechercher un patient...",
+  "noPatient": "Aucun patient sélectionné",
+  "selectPatient": "Sélectionnez un patient pour voir son historique",
+  "totalAnalyses": "Total Analyses",
+  "firstAnalysis": "Première analyse",
+  "lastAnalysis": "Dernière analyse",
+  "exportCSV": "Exporter CSV",
+  "timeline": "Chronologie",
+  "history": "Historique",
+  "patientsWithHistory": "Patients avec Historique",
+  "patientsWithAnalyses": "{{count}} patients avec analyses",
+  "patientCount": "patient trouvé",
+  "patientCount_plural": "patients trouvés",
+  "patients": "patients",
+  "patient": "Patient",
+  "analyses": "Analyses",
+  "last": "Dernière",
+  "view": "Voir",
+  "viewHistory": "Voir l'historique",
+  "action": "Action",
+  "loadingPatients": "Chargement des patients...",
+  "noPatientFound": "Aucun patient trouvé",
+  "noPatientMatchSearch": "Aucun patient ne correspond à \"{{searchTerm}}\"",
+  "noPatientInDatabase": "Aucun patient avec analyses dans la base de données",
+  "sort": {
+    "mostRecent": "Plus récent",
+    "oldest": "Plus ancien",
+    "nameAZ": "Nom A-Z",
+    "nameZA": "Nom Z-A",
+    "mostAnalyses": "Plus d'analyses"
+  },
+  "pagination": {
+    "showing": "Affichage de {{start}} à {{end}} sur {{total}} patients",
+    "firstPage": "Première page",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "lastPage": "Dernière page",
+    "perPage": "Par page"
+  },
+  "filters": {
+    "analysisType": "Type d'analyse",
+    "dateFrom": "Date de début",
+    "dateTo": "Date de fin",
+    "sortBy": "Trier par",
+    "sortOrder": "Ordre",
+    "analysisDate": "Date d'analyse",
+    "createdAt": "Date de création",
+    "desc": "↓ Desc",
+    "asc": "↑ Asc"
+  },
+  "events": {
+    "created": "Analyse créée",
+    "sent": "Analyse envoyée par WhatsApp",
+    "delivered": "Analyse livrée",
+    "read": "Analyse lue par le patient"
+  },
+  "empty": {
+    "noAnalyses": "Aucune analyse",
+    "noAnalysesDescription": "Aucune analyse trouvée pour ce patient avec les filtres sélectionnés.",
+    "noEvents": "Aucun événement",
+    "noEventsDescription": "Aucun événement trouvé dans la chronologie de ce patient."
+  }
+}

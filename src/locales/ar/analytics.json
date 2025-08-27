@@ -1,0 +1,30 @@
+{
+  "title": "الإحصائيات والتحليلات",
+  "description": "حلل أداء إرسال تحاليلك",
+  "totalAnalyses": "إجمالي التحاليل",
+  "successRate": "معدل النجاح",
+  "successRateDescription": "التحاليل المستلمة بنجاح",
+  "pending": "في الانتظار",
+  "pendingDescription": "للإرسال",
+  "failed": "فشلت",
+  "failedDescription": "لإعادة الإرسال",
+  "statusDistribution": "التوزيع حسب الحالة",
+  "typeDistribution": "أنواع التحاليل الأكثر شيوعاً",
+  "monthlyEvolution": "التطور الشهري",
+  "whatsappPerformance": "أداء الواتساب",
+  "messagesSent": "الرسائل المرسلة",
+  "messagesDelivered": "الرسائل المستلمة",
+  "messagesRead": "الرسائل المقروءة",
+  "trends": "الاتجاهات",
+  "deliveryRate": "معدل التسليم",
+  "monthlyAverage": "المتوسط الشهري",
+  "recommendedActions": "الإجراءات الموصى بها",
+  "noData": "لا توجد بيانات بعد",
+  "noDataDescription": "ستظهر الإحصائيات الشهرية هنا",
+  "recommendations": {
+    "pendingAnalyses": "{{count}} تحليل في انتظار الإرسال",
+    "failedAnalyses": "{{count}} تحليل لإعادة الإرسال",
+    "improvementNeeded": "معدل النجاح يحتاج تحسين ({{rate}}%)",
+    "excellentRate": "معدل نجاح ممتاز! ({{rate}}%)"
+  }
+}

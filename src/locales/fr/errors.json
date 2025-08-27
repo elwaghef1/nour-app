@@ -1,0 +1,9 @@
+{
+  "generic": "Une erreur est survenue",
+  "network": "Erreur de connexion",
+  "unauthorized": "Accès non autorisé",
+  "notFound": "Élément non trouvé",
+  "validation": "Erreur de validation",
+  "fileUpload": "Erreur lors du téléchargement du fichier",
+  "serverError": "Erreur serveur"
+}

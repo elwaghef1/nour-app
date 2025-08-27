@@ -1,0 +1,79 @@
+{
+  "title": "التحاليل",
+  "newAnalysis": "تحليل جديد",
+  "patientName": "اسم المريض",
+  "patientPhone": "رقم الواتساب",
+  "patientEmail": "بريد المريض الإلكتروني",
+  "analysisType": "نوع التحليل",
+  "analysisDate": "تاريخ التحليل",
+  "pdfFile": "ملف PDF",
+  "customMessage": "رسالة مخصصة",
+  "status": {
+    "pending": "في الانتظار",
+    "sent": "مُرسل",
+    "delivered": "مُستلم",
+    "read": "مقروء",
+    "failed": "فشل"
+  },
+  "types": {
+    "bloodAnalysis": "تحليل دم",
+    "urineAnalysis": "تحليل بول",
+    "biochemistry": "كيمياء حيوية",
+    "hematology": "أمراض الدم",
+    "microbiology": "علم الأحياء الدقيقة",
+    "immunology": "علم المناعة",
+    "endocrinology": "الغدد الصماء",
+    "other": "أخرى"
+  },
+  "actions": {
+    "send": "إرسال عبر الواتساب",
+    "retry": "إعادة الإرسال",
+    "download": "تنزيل PDF",
+    "delete": "حذف",
+    "view": "عرض التفاصيل"
+  },
+  "confirmations": {
+    "send": "هل أنت متأكد من إرسال هذا التحليل عبر الواتساب؟",
+    "retry": "هل أنت متأكد من إعادة إرسال هذا التحليل؟",
+    "delete": "هل أنت متأكد من حذف هذا التحليل؟ هذا الإجراء لا يمكن التراجع عنه."
+  },
+  "messages": {
+    "createSuccess": "تم إنشاء التحليل بنجاح",
+    "sendSuccess": "تم إرسال التحليل بنجاح عبر الواتساب",
+    "deleteSuccess": "تم حذف التحليل بنجاح",
+    "sendError": "خطأ في إرسال الواتساب",
+    "fileRequired": "ملف PDF مطلوب",
+    "invalidPhone": "تنسيق رقم الواتساب غير صحيح. استخدم التنسيق الدولي (+222XXXXXXXX)"
+  },
+  "placeholders": {
+    "patientName": "الاسم الكامل للمريض",
+    "patientPhone": "+222XXXXXXXX",
+    "patientEmail": "email@example.com",
+    "customMessage": "رسالة مخصصة (اختياري)",
+    "searchPatient": "البحث بالاسم...", 
+    "filters": "تصفية التحاليل..."
+  },
+  "filters": {
+    "title": "المرشحات",
+    "allStatuses": "جميع الحالات",
+    "allTypes": "جميع الأنواع",
+    "dateFrom": "من تاريخ",
+    "dateTo": "إلى تاريخ",
+    "clearFilters": "مسح المرشحات"
+  },
+  "pagination": {
+    "showing": "عرض",
+    "to": "إلى",
+    "of": "من",
+    "results": "نتائج",
+    "previous": "السابق",
+    "next": "التالي",
+    "page": "صفحة",
+    "itemsPerPage": "في الصفحة"
+  },
+  "empty": {
+    "title": "لم يتم العثور على تحاليل",
+    "description": "لا توجد تحاليل تطابق معايير البحث.",
+    "createFirst": "ابدأ بإنشاء تحليلك الأول."
+  }
+}

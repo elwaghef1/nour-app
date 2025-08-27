@@ -1,0 +1,67 @@
+{
+  "title": "تاريخ المرضى",
+  "description": "استعرض التاريخ المفصل لتحاليل كل مريض",
+  "searchPlaceholder": "البحث عن مريض بالاسم أو الرقم...",
+  "searchPatientPlaceholder": "ابحث عن مريض...",
+  "noPatient": "لم يتم اختيار مريض",
+  "selectPatient": "اختر مريضاً لعرض تاريخه",
+  "totalAnalyses": "إجمالي التحاليل",
+  "firstAnalysis": "أول تحليل",
+  "lastAnalysis": "آخر تحليل",
+  "exportCSV": "تصدير CSV",
+  "timeline": "الجدول الزمني",
+  "history": "التاريخ",
+  "patientsWithHistory": "المرضى مع التاريخ",
+  "patientsWithAnalyses": "{{count}} مريض مع تحاليل",
+  "patientCount": "مريض تم العثور عليه",
+  "patientCount_plural": "مرضى تم العثور عليهم",
+  "patients": "مرضى",
+  "patient": "مريض",
+  "analyses": "تحاليل",
+  "last": "آخر",
+  "view": "عرض",
+  "viewHistory": "عرض التاريخ",
+  "action": "إجراء",
+  "loadingPatients": "جاري تحميل المرضى...",
+  "noPatientFound": "لم يتم العثور على مريض",
+  "noPatientMatchSearch": "لا يوجد مريض يطابق \"{{searchTerm}}\"",
+  "noPatientInDatabase": "لا يوجد مرضى مع تحاليل في قاعدة البيانات",
+  "sort": {
+    "mostRecent": "الأحدث",
+    "oldest": "الأقدم",
+    "nameAZ": "الاسم أ-ي",
+    "nameZA": "الاسم ي-أ",
+    "mostAnalyses": "أكثر تحاليل"
+  },
+  "pagination": {
+    "showing": "عرض {{start}} إلى {{end}} من {{total}} مريض",
+    "firstPage": "الصفحة الأولى",
+    "previous": "السابق",
+    "next": "التالي",
+    "lastPage": "الصفحة الأخيرة",
+    "perPage": "في الصفحة"
+  },
+  "filters": {
+    "analysisType": "نوع التحليل",
+    "dateFrom": "من تاريخ",
+    "dateTo": "إلى تاريخ",
+    "sortBy": "ترتيب حسب",
+    "sortOrder": "الترتيب",
+    "analysisDate": "تاريخ التحليل",
+    "createdAt": "تاريخ الإنشاء",
+    "desc": "↓ تنازلي",
+    "asc": "↑ تصاعدي"
+  },
+  "events": {
+    "created": "تم إنشاء التحليل",
+    "sent": "تم إرسال التحليل عبر الواتساب",
+    "delivered": "تم استلام التحليل",
+    "read": "قرأ المريض التحليل"
+  },
+  "empty": {
+    "noAnalyses": "لا توجد تحاليل",
+    "noAnalysesDescription": "لم يتم العثور على تحاليل لهذا المريض مع المرشحات المحددة.",
+    "noEvents": "لا توجد أحداث",
+    "noEventsDescription": "لم يتم العثور على أحداث في الجدول الزمني لهذا المريض."
+  }
+}

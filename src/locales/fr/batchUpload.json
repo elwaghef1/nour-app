@@ -1,0 +1,62 @@
+{
+  "title": "Upload Multiple",
+  "pageTitle": "Traitement par Lot",
+  "pageDescription": "Uploadez plusieurs PDFs simultanément pour extraire automatiquement les informations patients",
+  "patients": "Patients",
+  "patientsList": "Liste des Patients",
+  "patientsDescription": "Patients avec leurs dossiers d'analyses",
+  "patientsCount": "patients",
+  "lastAnalysis": "Dernière analyse",
+  "analysisCount": "analyse",
+  "analysisCount_plural": "analyses",
+  "viewHistory": "Voir historique",
+  "moreAnalyses": "autre analyse",
+  "moreAnalyses_plural": "autres analyses",
+  "noPatients": "Aucun patient",
+  "noPatientsDescription": "Commencez par uploader des PDFs pour créer des dossiers patients",
+  "statisticsTitle": "Statistiques des Traitements",
+  "statisticsDescription": "Activité des 30 derniers jours",
+  "noData": "Aucune donnée",
+  "noDataDescription": "Pas d'activité dans les 30 derniers jours",
+  "description": "Glissez-déposez plusieurs fichiers PDF pour traitement automatique",
+  "dropZone": "Glissez vos fichiers PDF ici ou cliquez pour sélectionner",
+  "processing": "Traitement en cours...",
+  "results": "Résultats du traitement",
+  "stats": {
+    "total": "Total",
+    "successful": "Réussis",
+    "newPatients": "Nouveaux",
+    "existingPatients": "Existants"
+  },
+  "statistics": {
+    "title": "Statistiques",
+    "totalFiles": "Total des fichiers",
+    "processed": "Traités avec succès",
+    "failed": "Échecs",
+    "newPatients": "Nouveaux patients",
+    "existingPatients": "Patients existants"
+  },
+  "fileStatus": {
+    "success": "Succès",
+    "error": "Erreur",
+    "processing": "En cours..."
+  },
+  "messages": {
+    "uploadSuccess": "{{count}} fichiers traités avec succès",
+    "uploadError": "Erreur lors du traitement de certains fichiers",
+    "noFiles": "Aucun fichier sélectionné",
+    "invalidFiles": "Seuls les fichiers PDF sont acceptés"
+  },
+  "extractingInfo": "Extraction des informations patients",
+  "dropFiles": "Déposez les fichiers PDF ici...",
+  "fileConstraints": "Maximum 20 fichiers • 10MB par fichier • Format PDF uniquement",
+  "uploadError": "Erreur d'upload",
+  "processingCompleted": "Traitement terminé",
+  "successfulFiles": "Fichiers traités avec succès ({{count}})",
+  "failedFiles": "Fichiers échoués ({{count}})",
+  "patient": "Patient",
+  "phone": "Téléphone",
+  "newPatient": "Nouveau patient",
+  "existingPatient": "Patient existant",
+  "uploadMoreFiles": "Uploader d'autres fichiers"
+}

@@ -1,0 +1,9 @@
+{
+  "generic": "حدث خطأ",
+  "network": "خطأ في الاتصال",
+  "unauthorized": "وصول غير مسموح",
+  "notFound": "العنصر غير موجود",
+  "validation": "خطأ في التحقق",
+  "fileUpload": "خطأ في رفع الملف",
+  "serverError": "خطأ في الخادم"
+}

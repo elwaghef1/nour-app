@@ -1,0 +1,79 @@
+{
+  "title": "Analyses",
+  "newAnalysis": "Nouvelle analyse",
+  "patientName": "Nom du patient",
+  "patientPhone": "Numéro WhatsApp",
+  "patientEmail": "Email du patient",
+  "analysisType": "Type d'analyse",
+  "analysisDate": "Date d'analyse",
+  "pdfFile": "Fichier PDF",
+  "customMessage": "Message personnalisé",
+  "status": {
+    "pending": "En attente",
+    "sent": "Envoyé",
+    "delivered": "Livré",
+    "read": "Lu",
+    "failed": "Échec"
+  },
+  "types": {
+    "bloodAnalysis": "Analyse sanguine",
+    "urineAnalysis": "Analyse urinaire",
+    "biochemistry": "Biochimie",
+    "hematology": "Hématologie",
+    "microbiology": "Microbiologie",
+    "immunology": "Immunologie",
+    "endocrinology": "Hormonologie",
+    "other": "Autre"
+  },
+  "actions": {
+    "send": "Envoyer via WhatsApp",
+    "retry": "Renvoyer",
+    "download": "Télécharger le PDF",
+    "delete": "Supprimer",
+    "view": "Voir détails"
+  },
+  "confirmations": {
+    "send": "Êtes-vous sûr de vouloir envoyer cette analyse via WhatsApp ?",
+    "retry": "Êtes-vous sûr de vouloir renvoyer cette analyse ?",
+    "delete": "Êtes-vous sûr de vouloir supprimer cette analyse ? Cette action est irréversible."
+  },
+  "messages": {
+    "createSuccess": "Analyse créée avec succès",
+    "sendSuccess": "Analyse envoyée avec succès via WhatsApp",
+    "deleteSuccess": "Analyse supprimée avec succès",
+    "sendError": "Erreur lors de l'envoi WhatsApp",
+    "fileRequired": "Fichier PDF requis",
+    "invalidPhone": "Format de numéro WhatsApp invalide. Utilisez le format international (+222XXXXXXXX)"
+  },
+  "placeholders": {
+    "patientName": "Nom complet du patient",
+    "patientPhone": "+222XXXXXXXX",
+    "patientEmail": "email@example.com",
+    "customMessage": "Message personnalisé (optionnel)",
+    "searchPatient": "Rechercher par nom de patient...", 
+    "filters": "Filtrer les analyses..."
+  },
+  "filters": {
+    "title": "Filtres",
+    "allStatuses": "Tous les statuts",
+    "allTypes": "Tous les types",
+    "dateFrom": "Date de début",
+    "dateTo": "Date de fin",
+    "clearFilters": "Effacer les filtres"
+  },
+  "pagination": {
+    "showing": "Affichage de",
+    "to": "à",
+    "of": "sur",
+    "results": "résultats",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page",
+    "itemsPerPage": "par page"
+  },
+  "empty": {
+    "title": "Aucune analyse trouvée",
+    "description": "Aucune analyse ne correspond aux critères de recherche.",
+    "createFirst": "Commencez par créer votre première analyse."
+  }
+}

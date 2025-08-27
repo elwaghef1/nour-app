@@ -1,0 +1,30 @@
+{
+  "title": "Statistiques et Analytics",
+  "description": "Analysez les performances de vos envois d'analyses",
+  "totalAnalyses": "Total des analyses",
+  "successRate": "Taux de réussite",
+  "successRateDescription": "Analyses livrées avec succès",
+  "pending": "En attente",
+  "pendingDescription": "À envoyer",
+  "failed": "Échecs",
+  "failedDescription": "À renvoyer",
+  "statusDistribution": "Répartition par statut",
+  "typeDistribution": "Types d'analyses les plus fréquents",
+  "monthlyEvolution": "Évolution mensuelle",
+  "whatsappPerformance": "Performances WhatsApp",
+  "messagesSent": "Messages envoyés",
+  "messagesDelivered": "Messages livrés",
+  "messagesRead": "Messages lus",
+  "trends": "Tendances",
+  "deliveryRate": "Taux de livraison",
+  "monthlyAverage": "Moyenne mensuelle",
+  "recommendedActions": "Actions recommandées",
+  "noData": "Pas encore de données",
+  "noDataDescription": "Les statistiques mensuelles apparaîtront ici",
+  "recommendations": {
+    "pendingAnalyses": "{{count}} analyses en attente d'envoi",
+    "failedAnalyses": "{{count}} analyses à renvoyer",
+    "improvementNeeded": "Taux de réussite à améliorer ({{rate}}%)",
+    "excellentRate": "Excellent taux de réussite ! ({{rate}}%)"
+  }
+}

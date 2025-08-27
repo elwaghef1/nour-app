@@ -1,0 +1,44 @@
+{
+  "buttons": {
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "continue": "متابعة",
+    "finish": "إنهاء",
+    "skip": "تخطي",
+    "submit": "إرسال"
+  },
+  "status": {
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "processing": "قيد المعالجة",
+    "completed": "مكتمل",
+    "cancelled": "ملغى"
+  },
+  "messages": {
+    "confirmAction": "هل أنت متأكد من أنك تريد تنفيذ هذا الإجراء؟",
+    "unsavedChanges": "لديك تغييرات غير محفوظة. هل تريد المتابعة؟",
+    "operationSuccessful": "تمت العملية بنجاح",
+    "operationFailed": "فشلت العملية"
+  },
+  "timeAgo": {
+    "justNow": "الآن",
+    "minutesAgo": "منذ {{count}} دقيقة",
+    "minutesAgo_plural": "منذ {{count}} دقائق",
+    "hoursAgo": "منذ {{count}} ساعة",
+    "hoursAgo_plural": "منذ {{count}} ساعات",
+    "daysAgo": "منذ {{count}} يوم",
+    "daysAgo_plural": "منذ {{count}} أيام",
+    "monthsAgo": "منذ {{count}} شهر",
+    "yearsAgo": "منذ {{count}} سنة",
+    "yearsAgo_plural": "منذ {{count}} سنوات"
+  },
+  "fileOperations": {
+    "selectFile": "اختر ملف",
+    "removeFile": "حذف الملف",
+    "replaceFile": "استبدال الملف",
+    "previewFile": "معاينة الملف",
+    "dragDropHere": "اسحب وأفلت ملفك هنا",
+    "supportedFormats": "التنسيقات المدعومة: {{formats}}",
+    "maxFileSize": "الحد الأقصى للحجم: {{size}}"
+  }
+}

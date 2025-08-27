@@ -1,0 +1,9 @@
+{
+  "required": "Ce champ est requis",
+  "minLength": "Minimum {{min}} caractères",
+  "maxLength": "Maximum {{max}} caractères",
+  "email": "Format d'email invalide",
+  "phone": "Format de numéro invalide",
+  "fileSize": "Taille de fichier trop importante",
+  "fileType": "Type de fichier non supporté"
+}

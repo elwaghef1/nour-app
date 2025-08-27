@@ -1,0 +1,22 @@
+{
+  "title": "لوحة التحكم",
+  "welcome": "مرحباً {{name}}، إليك نظرة عامة على نشاطك",
+  "totalAnalyses": "إجمالي التحاليل",
+  "pending": "في الانتظار",
+  "sent": "مُرسلة",
+  "delivered": "مُستلمة",
+  "failed": "فشلت",
+  "recentAnalyses": "التحاليل الأخيرة",
+  "viewAll": "عرض الكل",
+  "viewMore": "عرض المزيد",
+  "viewSummary": "عرض الملخص",
+  "quickActions": "إجراءات سريعة",
+  "noAnalyses": "لا توجد تحاليل",
+  "noAnalysesDescription": "ابدأ بإنشاء تحليلك الأول.",
+  "newAnalysisAction": "تحليل جديد",
+  "newAnalysisDescription": "إنشاء وإرسال تحليل",
+  "manageAnalyses": "تحاليلي",
+  "manageAnalysesDescription": "إدارة جميع التحاليل",
+  "viewStatistics": "الإحصائيات",
+  "viewStatisticsDescription": "عرض التحاليل التفصيلية"
+}

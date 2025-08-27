@@ -1,0 +1,22 @@
+{
+  "title": "Tableau de bord",
+  "welcome": "Bienvenue {{name}}, voici un aperçu de votre activité",
+  "totalAnalyses": "Total des analyses",
+  "pending": "En attente",
+  "sent": "Envoyées",
+  "delivered": "Livrées",
+  "failed": "Échecs",
+  "recentAnalyses": "Analyses récentes",
+  "viewAll": "Voir tout",
+  "viewMore": "Voir plus",
+  "viewSummary": "Voir résumé",
+  "quickActions": "Actions rapides",
+  "noAnalyses": "Aucune analyse",
+  "noAnalysesDescription": "Commencez par créer votre première analyse.",
+  "newAnalysisAction": "Nouvelle analyse",
+  "newAnalysisDescription": "Créer et envoyer une analyse",
+  "manageAnalyses": "Mes analyses",
+  "manageAnalysesDescription": "Gérer toutes les analyses",
+  "viewStatistics": "Statistiques",
+  "viewStatisticsDescription": "Voir les analyses détaillées"
+}

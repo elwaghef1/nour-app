@@ -1,0 +1,44 @@
+{
+  "buttons": {
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "continue": "Continuer",
+    "finish": "Terminer",
+    "skip": "Passer",
+    "submit": "Soumettre"
+  },
+  "status": {
+    "active": "Actif",
+    "inactive": "Inactif",
+    "processing": "En cours de traitement",
+    "completed": "Terminé",
+    "cancelled": "Annulé"
+  },
+  "messages": {
+    "confirmAction": "Êtes-vous sûr de vouloir effectuer cette action ?",
+    "unsavedChanges": "Vous avez des modifications non sauvegardées. Voulez-vous continuer ?",
+    "operationSuccessful": "Opération réussie",
+    "operationFailed": "L'opération a échoué"
+  },
+  "timeAgo": {
+    "justNow": "À l'instant",
+    "minutesAgo": "Il y a {{count}} minute",
+    "minutesAgo_plural": "Il y a {{count}} minutes",
+    "hoursAgo": "Il y a {{count}} heure",
+    "hoursAgo_plural": "Il y a {{count}} heures",
+    "daysAgo": "Il y a {{count}} jour",
+    "daysAgo_plural": "Il y a {{count}} jours",
+    "monthsAgo": "Il y a {{count}} mois",
+    "yearsAgo": "Il y a {{count}} an",
+    "yearsAgo_plural": "Il y a {{count}} ans"
+  },
+  "fileOperations": {
+    "selectFile": "Sélectionner un fichier",
+    "removeFile": "Supprimer le fichier",
+    "replaceFile": "Remplacer le fichier",
+    "previewFile": "Prévisualiser le fichier",
+    "dragDropHere": "Glissez et déposez votre fichier ici",
+    "supportedFormats": "Formats supportés: {{formats}}",
+    "maxFileSize": "Taille maximale: {{size}}"
+  }
+}
