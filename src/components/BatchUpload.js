@@ -49,7 +49,7 @@ const BatchUpload = () => {
         error: error.response?.data?.message || tBatchUpload('messages.uploadError')
       });
     }
-  }, []);
+  }, [tBatchUpload]);
 
   const { getRootProps, getInputProps, isDragActive } = useDropzone({
     onDrop,

@@ -75,7 +75,7 @@ const PatientHistoryModal = ({ isOpen, onClose, patientPhone, patientName }) => 
         loadTimeline();
       }
     }
-  }, [isOpen, patientPhone, activeTab, filters, currentPage, pageSize]);
+  }, [isOpen, patientPhone, activeTab, filters, currentPage, pageSize, loadPatientHistory, loadTimeline]);
 
   const handleFilterChange = (key, value) => {
     setFilters(prev => ({ ...prev, [key]: value }));

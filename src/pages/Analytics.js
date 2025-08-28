@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { 
   BarChart3 as BarChart3Icon, 
   TrendingUp as TrendingUpIcon, 
@@ -12,14 +12,15 @@ import { useAnalysis } from '../context/AnalysisContext';
 import LoadingSpinner from '../components/LoadingSpinner';
 
 const Analytics = () => {
-  const { t } = useTranslation();
-  const { tAnalytics, tCommon, getAnalysisStatus } = useI18n();
+  // const { t } = useTranslation();
+  const { tAnalytics, tCommon } = useI18n();
+  // const getAnalysisStatus = useI18n().getAnalysisStatus;
   const { stats, fetchStats, isLoading } = useAnalysis();
-  const [timeRange, setTimeRange] = useState('month');
+  // const [timeRange, setTimeRange] = useState('month');
 
   useEffect(() => {
     fetchStats();
-  }, []);
+  }, [fetchStats]);
 
   const getStatusStats = () => {
     if (!stats?.statusStats) return [];

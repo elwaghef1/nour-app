@@ -7,8 +7,9 @@ import PatientHistoryModal from '../components/PatientHistoryModal';
 import api from '../services/api';
 
 const BatchAnalysis = () => {
-  const { t } = useTranslation();
-  const { tBatchUpload, tCommon, tAnalysis, tPagination } = useI18n();
+  // const { t } = useTranslation();
+  const { tBatchUpload, tAnalysis, tPagination } = useI18n();
+  // const tCommon = useI18n().tCommon;
   const [activeTab, setActiveTab] = useState('upload');
   const [patients, setPatients] = useState([]);
   const [stats, setStats] = useState(null);
@@ -52,7 +53,7 @@ const BatchAnalysis = () => {
     } else if (activeTab === 'stats') {
       loadStats();
     }
-  }, [activeTab]);
+  }, [activeTab, loadPatients, loadStats]);
 
   const tabs = [
     { id: 'upload', name: tBatchUpload('title'), icon: Upload },

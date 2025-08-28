@@ -45,7 +45,7 @@ const AnalysisList = () => {
 
   useEffect(() => {
     fetchAnalyses(1);
-  }, []);
+  }, [fetchAnalyses]);
 
   const analysisTypes = [
     { value: 'bloodAnalysis', label: tAnalysis('types.bloodAnalysis') },

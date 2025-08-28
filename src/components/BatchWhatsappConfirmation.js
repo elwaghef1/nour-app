@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useTranslation } from 'react-i18next';
+import React, { useState, useEffect, useCallback } from 'react';
+// import { useTranslation } from 'react-i18next';
 import LoadingSpinner from './LoadingSpinner';
 
 const BatchWhatsappConfirmation = ({ 
@@ -8,19 +8,13 @@ const BatchWhatsappConfirmation = ({
   onCancel, 
   isLoading = false 
 }) => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const [batchPreview, setBatchPreview] = useState(null);
   const [selectedMessages, setSelectedMessages] = useState({});
   const [customMessage, setCustomMessage] = useState('');
   const [isPreparingBatch, setIsPreparingBatch] = useState(true);
 
-  useEffect(() => {
-    if (selectedAnalyses && selectedAnalyses.length > 0) {
-      prepareBatch();
-    }
-  }, [selectedAnalyses]);
-
-  const prepareBatch = async () => {
+  const prepareBatch = useCallback(async () => {
     try {
       setIsPreparingBatch(true);
       const response = await fetch('/api/whatsapp/batch/prepare', {
@@ -54,7 +48,13 @@ const BatchWhatsappConfirmation = ({
     } finally {
       setIsPreparingBatch(false);
     }
-  };
+  }, [selectedAnalyses]);
+
+  useEffect(() => {
+    if (selectedAnalyses && selectedAnalyses.length > 0) {
+      prepareBatch();
+    }
+  }, [selectedAnalyses, prepareBatch]);
 
   const handleMessageToggle = (analysisId) => {
     setSelectedMessages(prev => ({

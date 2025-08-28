@@ -14,12 +14,12 @@ import {
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useAuth } from '../context/AuthContext';
-import { useLanguage } from '../context/LanguageContext';
+// import { useLanguage } from '../context/LanguageContext';
 import LanguageSelector from './LanguageSelector';
 
 const Layout = () => {
   const { t } = useTranslation();
-  const { isRTL } = useLanguage();
+  // const { isRTL } = useLanguage();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const { user, logout } = useAuth();
   const navigate = useNavigate();

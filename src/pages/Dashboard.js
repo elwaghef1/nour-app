@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { 
-  Plus as PlusIcon, 
+  // Plus as PlusIcon, 
   FileText as DocumentTextIcon, 
   CheckCircle as CheckCircleIcon, 
   Clock as ClockIcon, 
   XCircle as XCircleIcon,
   TrendingUp as TrendingUpIcon,
-  Users as UsersIcon,
-  Activity as ActivityIcon
+  // Users as UsersIcon,
+  // Activity as ActivityIcon
 } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import { useI18n } from '../utils/translationHelpers';
 import { useAuth } from '../context/AuthContext';
 import { useAnalysis } from '../context/AnalysisContext';
@@ -33,7 +33,7 @@ const Dashboard = () => {
     } else {
       fetchAnalyses(1, { limit: 5 }); // Récupérer les 5 dernières analyses
     }
-  }, [showAllRecent, currentPage, pageSize]);
+  }, [showAllRecent, currentPage, pageSize, fetchStats, fetchAnalyses]);
 
   useEffect(() => {
     // Mettre à jour les analyses récentes

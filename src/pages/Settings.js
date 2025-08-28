@@ -21,7 +21,8 @@ import { toast } from 'react-toastify';
 
 const Settings = () => {
   const { t } = useTranslation();
-  const { tSettings, tCommon } = useI18n();
+  const { tSettings } = useI18n();
+  // const tCommon = useI18n().tCommon;
   const { user, changePassword } = useAuth();
   const { currentLanguage, availableLanguages } = useLanguage();
   const [activeTab, setActiveTab] = useState('profile');

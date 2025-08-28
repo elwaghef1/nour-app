@@ -4,8 +4,8 @@ import {
   Search, 
   History, 
   FileText, 
-  Filter,
-  Download,
+  // Filter,
+  // Download,
   Eye,
   Users,
   Phone,
@@ -52,7 +52,7 @@ const PatientHistory = () => {
 
   useEffect(() => {
     loadPatients(1, searchTerm);
-  }, [searchTerm, sortBy, sortOrder]);
+  }, [searchTerm, sortBy, sortOrder, loadPatients]);
 
   const handleSearch = (value) => {
     setSearchTerm(value);
